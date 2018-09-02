@@ -55,7 +55,7 @@ $(document).ready(async function() {
 
   const filterForPriceRange = (price) => {
     $('div.restaurant-menu-list').find('div.row.menu-group').each(function() {
-      $(this).find('div.menu-item[onclick]').each(function() {
+      $(this).find('div.menu-item').each(function() {
         const priceStr = $(this).find('td.menu-item-price').find('meta[itemprop="price"]').attr('content');
         const priceInt = parseFloat(priceStr);
         $(this).find('td.menu-item-price').find('strong[itemprop="price"]').removeAttr('style');

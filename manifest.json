@@ -5,7 +5,6 @@
 "short_name": "SPF",
 "description": "Filter items on SkipTheDishes that are cheaper or more than a certain amount.",
 "version": "1.0.0",
-"default_locale": "en",
 "author": "JustSayBoot",
 "permissions": [
   "storage"
